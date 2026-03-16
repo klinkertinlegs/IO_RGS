@@ -16,19 +16,19 @@ License: creative commons CC-BY-NC-SA
   <view name="menu">
   
     <menuText name="menutitle">
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <fontSize>0.04</fontSize>
       <color>ffffff</color>
     </menuText>
 	
     <menuText name="menufooter">
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <fontSize>0.02</fontSize>
       <color>ffffff</color>
     </menuText>
 	
     <menuText name="menutext">
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <fontSize>0.035</fontSize>
       <color>ffffff90</color>
       <selectorColor>ffffff</selectorColor>
@@ -43,7 +43,7 @@ License: creative commons CC-BY-NC-SA
     </menuTextEdit>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <fontSize>0.02</fontSize>
       <color>ffffff</color>
     </menuTextSmall>
@@ -109,7 +109,7 @@ License: creative commons CC-BY-NC-SA
 
     <text name="logoText">
       <selectorColor>ffffff</selectorColor>
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <forceUppercase>0</forceUppercase>
       <fontSize>0.05</fontSize>
       <color>FFFFFF</color>
@@ -133,7 +133,7 @@ License: creative commons CC-BY-NC-SA
                   <pos>0.03 0</pos>
                   <size>0.53 1</size>
                   <text>{game:name}</text>
-                  <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+                  <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
                   <fontSize>0.05</fontSize><!-- 14 -->
                   <color>ffffff</color>
                   <verticalAlignment>center</verticalAlignment>
@@ -259,7 +259,7 @@ License: creative commons CC-BY-NC-SA
                   <pos>0.03 0</pos>
                   <size>0.7 1</size>
                   <text>{game:name}</text>
-                  <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+                  <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
                   <fontSize>0.05</fontSize><!-- 14 -->
                   <color>ffffff</color>
                   <verticalAlignment>center</verticalAlignment>
@@ -349,7 +349,7 @@ License: creative commons CC-BY-NC-SA
     <text name="system_name" extra="true">
       <visible>false</visible>
       <text>${system.fullName}</text>
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <forceUppercase>0</forceUppercase>
       <size>0.9 0.025</size>
       <pos>-0.23 0.955</pos>
@@ -367,7 +367,7 @@ License: creative commons CC-BY-NC-SA
     <text name="md_name">
       <color>ffffff</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
        <alignment>center</alignment>
       <fontSize>0.03</fontSize>
       <pos>0.037 0.02</pos>
@@ -452,7 +452,7 @@ License: creative commons CC-BY-NC-SA
                         startswith({system:name}, "gbah") ? "GBA (Hacks)" : 
                         {system:fullName}
                     </text>
-                  <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+                  <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
                   <fontSize>0.05</fontSize><!-- 14 -->
                   <color>ffffff</color>
                   <verticalAlignment>center</verticalAlignment>
@@ -495,7 +495,7 @@ License: creative commons CC-BY-NC-SA
       <alignment>center</alignment>
       <backgroundColor>00000000</backgroundColor>
       <color>000000</color>
-      <fontPath>./assets/BPreplayBold-unhinted.otf</fontPath>
+      <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
       <fontSize>0.026</fontSize>
     </text>
 
