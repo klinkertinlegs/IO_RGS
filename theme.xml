@@ -121,20 +121,20 @@ License: creative commons CC-BY-NC-SA
   <view name="detailed">
       
     <textlist name="gamelist">
-       <x>0</x>
+       <x>0.15</x>
        <y>0.15</y>
        <h>0.7</h>
-       <w>1</w>
+       <w>0.7</w>
        <lines>9</lines>
          <itemTemplate>
             <container>
               <padding>10 0</padding>
               <text name="game-name">
                   <pos>0.03 0</pos>
-                  <size>0.53 1</size>
+                  <size>0.65 1</size>
                   <text>{game:name}</text>
                   <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
-                  <fontSize>0.05</fontSize><!-- 14 -->
+                  <fontSize>0.04</fontSize><!-- 14 -->
                   <color>ffffff</color>
                   <verticalAlignment>center</verticalAlignment>
                   <alignment>left</alignment>
@@ -188,49 +188,6 @@ License: creative commons CC-BY-NC-SA
     <image name="playtime-logo">
       <visible>false</visible>
     </image>
-	
-
-    <image name="md_image">
-      <visible>true</visible>
-      <origin>0.5 0.5</origin>
-      <pos>0.8 0.37</pos>
-      <minSize>0.267</minSize>
-      <imageSource>image</imageSource>
-       <default>./assets/default.png</default>
-      <zIndex>3</zIndex>
-    </image>
-
-    <image name="gbfilter" extra="true">
-      <visible>true</visible>
-      <origin>0.5 0.5</origin>
-      <pos>0.8 0.37</pos>
-      <minSize>0.267</minSize>
-      <path>./assets/gbfilter/${system.theme}.png</path>
-      <zIndex>4</zIndex>
-    </image>
-
-    <image name="md_wheel">
-      <visible>true</visible>
-      <origin>0.5 0.5</origin>
-      <pos>0.8 0.677</pos>
-      <maxSize>0.267</maxSize>
-      <imageSource>wheel</imageSource>
-      <default>./assets/defwheel.png</default>
-      <zIndex>2</zIndex>
-    </image>
-	
-    <video name="md_video">
-      <visible>true</visible>
-	    <origin>0.5 0.5</origin>
-      <pos>0.8 0.37</pos>
-      <minSize>0.267</minSize>
-      <delay>${delay}</delay>
-      <showSnapshotNoVideo>false</showSnapshotNoVideo>
-      <showSnapshotDelay>false</showSnapshotDelay>
-      <snapshotSource>image</snapshotSource>
-	    <effect>none</effect>
-      <zIndex>3</zIndex>
-    </video>
 
       <image name="background" extra="true">
       <size>0 0.6</size>
@@ -257,10 +214,10 @@ License: creative commons CC-BY-NC-SA
                <padding ifSubset="aspect-ratio:3-2|3-2-auto">10 0</padding>
                <text name="game-name">
                   <pos>0.03 0</pos>
-                  <size>0.7 1</size>
+                  <size>0.65 1</size>
                   <text>{game:name}</text>
                   <fontPath>./assets/ArchivoBlack-Regular.otf</fontPath>
-                  <fontSize>0.05</fontSize><!-- 14 -->
+                  <fontSize>0.04</fontSize><!-- 14 -->
                   <color>ffffff</color>
                   <verticalAlignment>center</verticalAlignment>
                   <alignment>left</alignment>
